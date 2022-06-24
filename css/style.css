@@ -1,9 +1,29 @@
-.container{
-	padding-top: 2em;
+
+body{
+	font-size: 16px;
+	font-family: 'Livvic', sans-serif;
+
 }
+
 
 .wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	padding-top: 5em;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2em;
+	grid-auto-rows: minmax(100px, auto);
+	padding: 20em;
+	text-align: center;
+	padding-top: 100px;
+
+}
+.basic {
+	border: 2px solid #dfdfdf;
+}
+.pro{
+	border: 2px solid #dfdfdf;
+	
+}
+.enter{
+	border: 2px solid #dfdfdf;
+	
 }
