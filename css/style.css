@@ -1,0 +1,9 @@
+.container{
+	padding-top: 2em;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-top: 5em;
+}
